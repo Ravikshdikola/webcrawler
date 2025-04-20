@@ -6,16 +6,18 @@ This repository contains custom **Scrapy-based web crawlers** designed to extrac
 
 
 project overview :
-mycrawler/
+
+myproject/
 ├── spiders/
 │   ├── product_spider_virgo.py
 │   ├── product_spider_westside.py
 │   ├── product_spider_tataiq.py
 │   └── product_spider_nyaka.py
+|   |__requirements.txt
 ├── items.py
 ├── pipelines.py
 ├── settings.py
-
+scrapy.cfg
 
 
 
